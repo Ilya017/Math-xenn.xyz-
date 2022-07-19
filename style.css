@@ -2,21 +2,21 @@ body {
     background: #d6eaf8;
   }
   .gradient-button {
+    width: 300px;
     text-decoration: none;
-    display: inline-block;
-    color: white;
     padding: 20px 30px;
     margin: 10px 20px;
-    border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    letter-spacing: 2px; 
     background-size: 200% auto;
-    box-shadow: 5px 5px 20px gray;
-    transition: .5s;
-    border-color: black;
     font-family: Impact , sans-serif;
-    color: white;
     font-size: 20px;
+    background-color: rgb(218, 214, 214);
+  }
+  .gradient-button:hover{
+    background-color: rgb(194, 193, 193);
+  }
+  .gradient-button:focus {
+    background-color: rgb(155, 151, 151);
   }
